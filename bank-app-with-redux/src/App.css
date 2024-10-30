@@ -1,0 +1,44 @@
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accountdata {
+  background-color: rgb(231, 217, 217);
+  border-radius: 8px;
+}
+
+.accountdata button,
+select {
+  padding: 5px 7px;
+  cursor: pointer;
+}
+
+.accountdata input {
+  padding: 4px 9px;
+  border-radius: 5px;
+  width: 20vw;
+}
+
+.customerdata {
+  background-color: rgb(231, 217, 217);
+  border-radius: 8px;
+}
+
+.customerdata button {
+  padding: 5px 7px;
+  cursor: pointer;
+}
+
+.customerdata input {
+  padding: 4px 9px;
+  border-radius: 5px;
+  width: 20vw;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+}
